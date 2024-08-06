@@ -102,18 +102,18 @@ The shopping cart system performs the following actions based on the combination
 2. Fill in the table with the appropriate values for each combination of conditions.
 3. Ensure that all possible combinations are covered.
 
-| Conditions | Test Case 1 |
-|------------|---------|
-| Product Type |       |
-| Quantity   |         |
-| Discount Code |      |
-| Calculate Subtotal |   |
-| Apply Discount |      |
-| Calculate Tax |       |
-| Calculate Shipping |  |
-| Calculate Total |     |
-| Update Inventory |    |
-| Generate Invoice |    |
+|     Conditions     | Test Case 1 | Test Case 2 | Test Case 3 | Test Case 4 |
+|--------------------|-------------|-------------|-------------|-------------|
+| Product Type       | Physical    | Digital     | Physical    | Digital     |
+| Quantity           | 1           | 1           | 2           | 2           |
+| Discount Code      | Valid       | Valid       | Invalid     | Invalid     |
+| Calculate Subtotal | Y           | Y           | Y           | Y           |
+| Apply Discount     | Y           | Y           | N           | N           |
+| Calculate Tax      | Y           | N           | Y           | N           |
+| Calculate Shipping | Y           | N           | Y           | N           |
+| Calculate Total    | Y           | Y           | Y           | Y           |
+| Update Inventory   | Y           | N           | Y           | N           |
+| Generate Invoice   | Y           | Y           | Y           | Y           |
 
 ### Task 3: Identify Test Cases
 1. Based on the decision table, identify the test cases that need to be executed.
